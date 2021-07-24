@@ -14,6 +14,9 @@
 		AD0C297626ABA68F00F52708 /* MVVMpattern.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AD0C297426ABA68F00F52708 /* MVVMpattern.xcdatamodeld */; };
 		AD0C297826ABA69000F52708 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD0C297726ABA69000F52708 /* Assets.xcassets */; };
 		AD0C297B26ABA69000F52708 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD0C297926ABA69000F52708 /* LaunchScreen.storyboard */; };
+		AD0C298926ABA88200F52708 /* Dog.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD0C298826ABA88200F52708 /* Dog.swift */; };
+		AD0C298B26ABAA2A00F52708 /* DogViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD0C298A26ABAA2A00F52708 /* DogViewModel.swift */; };
+		AD0C298D26ABB9C800F52708 /* DogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD0C298C26ABB9C800F52708 /* DogView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,9 @@
 		AD0C297726ABA69000F52708 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AD0C297A26ABA69000F52708 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AD0C297C26ABA69000F52708 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD0C298826ABA88200F52708 /* Dog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dog.swift; sourceTree = "<group>"; };
+		AD0C298A26ABAA2A00F52708 /* DogViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogViewModel.swift; sourceTree = "<group>"; };
+		AD0C298C26ABB9C800F52708 /* DogView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +89,7 @@
 			children = (
 				AD0C297126ABA68F00F52708 /* Main.storyboard */,
 				AD0C297926ABA69000F52708 /* LaunchScreen.storyboard */,
+				AD0C298C26ABB9C800F52708 /* DogView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -90,6 +97,7 @@
 		AD0C298426ABA79B00F52708 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				AD0C298A26ABAA2A00F52708 /* DogViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -105,6 +113,7 @@
 		AD0C298626ABA7D000F52708 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				AD0C298826ABA88200F52708 /* Dog.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -188,9 +197,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AD0C298D26ABB9C800F52708 /* DogView.swift in Sources */,
 				AD0C297626ABA68F00F52708 /* MVVMpattern.xcdatamodeld in Sources */,
 				AD0C297026ABA68F00F52708 /* ViewController.swift in Sources */,
 				AD0C296C26ABA68F00F52708 /* AppDelegate.swift in Sources */,
+				AD0C298B26ABAA2A00F52708 /* DogViewModel.swift in Sources */,
+				AD0C298926ABA88200F52708 /* Dog.swift in Sources */,
 				AD0C296E26ABA68F00F52708 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

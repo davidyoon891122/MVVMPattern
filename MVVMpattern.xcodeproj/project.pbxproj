@@ -58,16 +58,64 @@
 		AD0C296A26ABA68F00F52708 /* MVVMpattern */ = {
 			isa = PBXGroup;
 			children = (
-				AD0C296B26ABA68F00F52708 /* AppDelegate.swift */,
-				AD0C296D26ABA68F00F52708 /* SceneDelegate.swift */,
-				AD0C296F26ABA68F00F52708 /* ViewController.swift */,
-				AD0C297126ABA68F00F52708 /* Main.storyboard */,
-				AD0C297726ABA69000F52708 /* Assets.xcassets */,
-				AD0C297926ABA69000F52708 /* LaunchScreen.storyboard */,
+				AD0C298726ABA7E200F52708 /* AppDelegate */,
+				AD0C298626ABA7D000F52708 /* Models */,
+				AD0C298526ABA7B200F52708 /* Controllers */,
+				AD0C298426ABA79B00F52708 /* ViewModels */,
+				AD0C298326ABA77E00F52708 /* Views */,
+				AD0C298226ABA76F00F52708 /* Resources */,
 				AD0C297C26ABA69000F52708 /* Info.plist */,
 				AD0C297426ABA68F00F52708 /* MVVMpattern.xcdatamodeld */,
 			);
 			path = MVVMpattern;
+			sourceTree = "<group>";
+		};
+		AD0C298226ABA76F00F52708 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				AD0C297726ABA69000F52708 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		AD0C298326ABA77E00F52708 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AD0C297126ABA68F00F52708 /* Main.storyboard */,
+				AD0C297926ABA69000F52708 /* LaunchScreen.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		AD0C298426ABA79B00F52708 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		AD0C298526ABA7B200F52708 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				AD0C296F26ABA68F00F52708 /* ViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		AD0C298626ABA7D000F52708 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		AD0C298726ABA7E200F52708 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				AD0C296B26ABA68F00F52708 /* AppDelegate.swift */,
+				AD0C296D26ABA68F00F52708 /* SceneDelegate.swift */,
+			);
+			path = AppDelegate;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
